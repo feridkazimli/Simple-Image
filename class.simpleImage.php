@@ -1,4 +1,11 @@
 <?php 
+/**
+* Class simpleImage
+* @author Kazımlı Fərid
+* @blog http://www.feridkazimov.blogspot.com
+* @mail ferid.kazimli@gmail.com
+* @date 29.01.2016
+*/
 class simpleImage {
 	protected 			$image 				= null; // image
 	protected static    $thumbnail_image   = 500; // The width size of a thumbnail.
