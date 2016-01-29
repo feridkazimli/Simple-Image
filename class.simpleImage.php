@@ -56,7 +56,7 @@ class simpleImage {
 			"new_height" 	=> $new_height
 		);
 	}
-	function createImage(){
+	private function createImage(){
 		$orginalImageSize	 = self::imageSize();
 		$newImageSize		 = self::newImageSize();
 		$thump		 = imagecreatetruecolor($newImageSize["new_width"],$newImageSize["new_height"]);
